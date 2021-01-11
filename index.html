@@ -5,19 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial scale=1.0">
   <title>Portfolio Landing Page</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" media="screen and (min-width: 900px)" href="css/style.css">
+  <link rel="stylesheet" media="screen and (min-width: 601px) and (max-width: 899px)" href="css/tablet-style.css">
+<link rel="stylesheet" media="screen and (max-width: 600px)" href="css/mobile-style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+  </script>
 </head>
-
 
 <body class="col-12">
     <h1 style="background-color:#F4C1AA; color: #843010;"  class="Header1">Hi, my name is Elizabeth Titus-Yoakum</h1>
     <div class="row"></div>
     <h3 style="background-color:#F4C1AA; color: #843010;" class="Header3">I’m a UX Designer who loves to experiment 
       with Embroidery and Cooking.</h3>
-    <div class="container">
-      <img src="Images/Desktop Image with Text.png" alt="My Desktop" class="img"> 
-    </div>
+      <div class="container">
+        <img src="Images/Desktop Image with Text.png" alt="My Desktop" class="img" id="Laptop"> 
+      </div>
     
-    
+    <script src="Javascript/script.js"></script>   
 </body>
+
 </html>
