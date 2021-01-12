@@ -20,10 +20,15 @@
       who loves to experiment with 
       <a href="https://www.instagram.com/ms.titusyoakum/" target="_blank">Embroidery and Cooking.</a></h3>
       <div class="container">
-        <img src="Images/Desktop Image with Text.png" alt="My Desktop" class="img" id="Laptop"> 
-      </div>
-    
-    <script src="Javascript/script.js"></script>   
+        <picture usemap="#workmap">
+          <source media="(max-width:600px)" srcset="Images/mobile_desktop@2x.png">
+          <source media="(min-width:601px) and (max-width:899px)" srcset="Images/mobile_desktop@2x.png">
+          <img src="Images/Desktop Image with Text.png" alt="My Desktop" class="img" id="Laptop">
+        </picture>
+        <map name="workmap">
+          <area shape="rect" coords="34,44,270,350" alt="My Portfolio" href="https://www.linkedin.com/in/elizabeth-titus-yoakum-6a918292/">
+        </map>
+      </div> 
 </body>
 
 </html>
