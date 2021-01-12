@@ -60,3 +60,28 @@ body {
     margin-left: 7%;
 }
 
+<style>
+a:link {
+  color: #843010;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #D17B71;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #843010;
+  background-color: #F5C77C;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #F5C77C;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
